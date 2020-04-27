@@ -38,7 +38,7 @@ library(DescTools)
 
 ```{r}
 set.seed(12357)
-
+doses <- c(1e-3, 3e-3,1e-2,3e-2,1e-1,3e-1,1,3,10)
 #Beta-Arrestin Recruitment
 
 
