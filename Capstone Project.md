@@ -74,6 +74,7 @@ ggplot(fullframe, aes(x,y,group=drug,color=drug))+
   xlab("Concentration (A.U)")+
   ggtitle("Drug Induced B-Arrestin Recruitment")
 ```
+![B-arrestin recruitment](https://user-images.githubusercontent.com/64387394/80413726-ea473680-889d-11ea-88e1-fe9b4d79eb1b.PNG)
 
 ```{r}
 set.seed(123567)
@@ -115,7 +116,7 @@ ggplot(fullframe2, aes(x,y,group=drug,color=drug))+
   ggtitle("Drug-Induced IP3 Signaling")
 
 ```
-
+![IP3 recruitment](https://user-images.githubusercontent.com/64387394/80413724-ea473680-889d-11ea-9583-8024701e82ba.PNG)
 
 ```{r}
 fitliz<- fitlogdr(x,y,liz,logk=-1,ylo=0,yhi=5000,h=1,weigh = F)
