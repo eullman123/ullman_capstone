@@ -269,3 +269,4 @@ paste(pwr.pct, sep="", "% power.")
 ```
 ![p value](https://user-images.githubusercontent.com/64387394/80414115-85d8a700-889e-11ea-8cc5-01d90c74a47d.PNG)
 
+#P value under One way ANOVA is 0.01044878 with an F statistic 9.604125, 9 df. Mean p value utilizing pairwise t test under 100 simulations= 0.25 for beta arrestin recruitment:IP3 signaling ratio. Therefore, I accept the null hypothesis that there is no significant difference between beta arrestin recruitment ratio to IP3 signaling between lisuride and psilocybin.
