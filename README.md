@@ -1,7 +1,7 @@
 ---
 title: "Capstone 2020"
 author: "Elijah Ullman"
-date: "4/26/2020"
+date: "4.26.2020"
 output: html_document
 ---
 
