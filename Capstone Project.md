@@ -179,6 +179,7 @@ ggplot(df, aes(drug, Ratio, fill = drug))+
                 width = 0.1)+
   ylab("Ratio of B-Arrestin Recruitmen/IP3 Signal")
 ```
+![Barrestin to IP3](https://user-images.githubusercontent.com/64387394/80414119-86713d80-889e-11ea-9ac4-e7b13334d0aa.PNG)
 
 ```{r}
 
@@ -218,6 +219,7 @@ ggplot(dat, aes(Predictor, Outcome))+
   geom_jitter(width=0.1,size = 4, alpha=0.5)
 
 ```
+![variance predictor](https://user-images.githubusercontent.com/64387394/80414122-86713d80-889e-11ea-9f7a-668603117076.PNG)
 ```{r}
 pval <- replicate(
   sims, {
@@ -265,4 +267,5 @@ pval
 pwr.pct <- sum(pval<0.05)/sims*100
 paste(pwr.pct, sep="", "% power.")
 ```
+![p value](https://user-images.githubusercontent.com/64387394/80414115-85d8a700-889e-11ea-8cc5-01d90c74a47d.PNG)
 
